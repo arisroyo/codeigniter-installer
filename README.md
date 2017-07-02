@@ -18,7 +18,7 @@ you shouldn't have trouble.
 
 UPDATE : JULY 2, 2017
 Change User Interface and Add Confirmation Page
-You can change the theme by downloading bootstartp.min.css at https://bootswatch.com/ and put at asset folder.
+You can change the theme by downloading bootstrap.min.css at https://bootswatch.com/ and put to asset folder.
 
 General Instructions
 ---------------------
