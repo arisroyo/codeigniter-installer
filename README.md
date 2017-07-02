@@ -16,6 +16,10 @@ make it work for your application, and you might have to dig into the code
 a little bit. It's pretty simple, so if you have a basic understanding of PHP
 you shouldn't have trouble.
 
+UPDATE : JULY 2, 2017
+Change User Interface and Add Confirmation Page
+You can change the theme by downloading bootstartp.min.css at https://bootswatch.com/ and put at asset folder.
+
 General Instructions
 ---------------------
 
