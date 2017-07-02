@@ -5,8 +5,33 @@ class Core {
 	// Function to validate the post data
 	function validate_post($data)
 	{
-		/* Validating the hostname, the database name and the username. The password is optional. */
-		return !empty($data['hostname']) && !empty($data['username']) && !empty($data['database']);
+		// Counter variable
+		$counter = 0;
+
+		// Validate the hostname
+		if(isset($data['hostname']) AND !empty($data['hostname'])) {
+			$counter++;
+		}
+		// Validate the username
+		if(isset($data['username']) AND !empty($data['username'])) {
+			$counter++;
+		}
+		// Validate the password
+		if(isset($data['password']) AND !empty($data['password'])) {
+		  // pass
+		}
+		// Validate the database
+		if(isset($data['database']) AND !empty($data['database'])) {
+			$counter++;
+		}
+
+		// Check if all the required fields have been entered
+		if($counter == '3') {
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 
 	// Function to show an error
