@@ -16,6 +16,10 @@ make it work for your application, and you might have to dig into the code
 a little bit. It's pretty simple, so if you have a basic understanding of PHP
 you shouldn't have trouble.
 
+UPDATE : JULY 2, 2017
+Change User Interface and Add Confirmation Page
+You can change the theme by downloading bootstrap.min.css at https://bootswatch.com/ and put to asset folder.
+
 General Instructions
 ---------------------
 
@@ -36,5 +40,5 @@ to:
 (in CodeIgniter) that you want the user to be redirected to after installing.
 - Visit http://example.com/path/to/yourapp/install and see how it goes.
 
-If you have problems or have recommendations, please file an issue at
-http://github.com/mikecrittenden/ci-installer/ or else it won't get fixed!
+If you have problems or have recommendations, you may submit an issue at http://github.com/mikecrittenden/ci-installer/  
+or at https://github.com/arisroyo/codeigniter-installer/issues.
